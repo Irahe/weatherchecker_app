@@ -29,7 +29,7 @@ const Page = ({ goTo }) => {
   return (
     <PageWrapper>
       <LoginCard>
-        <Title> Welcome </Title>
+        <Title> Weather Checker </Title>
         <InputsWrapper>
           <Desc>Enter Your Details Below</Desc>
           <InputSo

@@ -7,7 +7,7 @@ export const PageWrapper = styled.div`
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-image: url("../../assets/background.png");
+  background-image: url("https://newsroom.ibm.com/image/sky-clouds-cloudy-weather.jpg");
 `;
 
 export const LoginCard = styled.div`
@@ -17,8 +17,8 @@ export const LoginCard = styled.div`
   width: 50vw;
   max-width: 580px;
   border-radius: 35px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-  background-color: lightblue;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.33);
 `;
 
 export const InputsWrapper = styled.div`
@@ -53,7 +53,7 @@ export const LoginButton = styled.button`
 `;
 
 export const Title = styled.span`
-  font-size: 62px;
+  font-size: 52px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -61,11 +61,9 @@ export const Title = styled.span`
   text-align: center;
   color: #4c4e6a;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 40px;
 `;
 export const Desc = styled.span`
-  margin-top: 32px;
-  margin-bottom: 13px;
   font-size: 18px;
   font-weight: 100;
   font-stretch: normal;
@@ -100,7 +98,6 @@ export const InputSo = styled.input`
 `;
 
 export const PrimaryButton = styled.div`
-  margin-bottom: 13px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,9 +109,7 @@ export const PrimaryButton = styled.div`
   cursor: pointer;
 
   :hover {
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    background-image: linear-gradient(84deg, #83a9f7, #0beaf3 100%);
+    filter: brightness(1.2);
   }
   > span {
     font-family: "Roboto",
